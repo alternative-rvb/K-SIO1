@@ -56,9 +56,9 @@ buttons.forEach((button) => {
 
         // RESET
         // Si c'est le bouton "AC", on réinitialise toutes les variables
-        if (buttonContent === "AC") {
+        if (buttonContent === "C") {
             firstOperand = "";
-           lastOperand = "";
+            lastOperand = "";
             operator = "";
             screen.innerText = "0";
         }
